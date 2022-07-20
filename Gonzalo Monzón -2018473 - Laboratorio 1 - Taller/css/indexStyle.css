@@ -1,0 +1,77 @@
+body{
+    margin: 0em;
+}
+
+.menuEstatico{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+} 
+
+.navbar{
+    background-color: #23376D;
+}
+
+.navbar-brand{
+    margin-left: 2rem;
+    font-size: 2.5vw;
+    color: #EB7207;
+}
+
+.navbar-brand:hover{
+    color: #EB7207;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.7vw;
+}
+
+.nav-link:hover{
+    color: #EB7207;
+}
+
+.cover{
+    height: 500px;
+    background-image: url(../imagenes/uno.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-title{
+  min-height: 3rem;  
+}
+
+.card-text{
+    min-height: 10rem;
+}
+
+h1{
+    color: white;
+    font-size: 3vw;
+}
+
+#miniTexto{
+    color: white;
+    font-size: 1.5vw;
+}
+
+footer{
+    font-size: 90%;
+    color: black;
+    text-align: center;
+}
+
